@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import {useStyles} from '../styles/NavBarClasses.js';
 import instagramIcon from '../images/icons8-instagram 1.png';
 import twitterIcon from '../images/icons8-twitter 1 (1).png';
-import logo from '../images/logo.png';
+import logo from '../images/HS_Logo_Vertical.png';
 
 const NavBar = (props) => {
     const classes = useStyles();
