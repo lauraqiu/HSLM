@@ -1,4 +1,5 @@
 import React from 'react';
+import RedInfoBox from '../Components/RedInfoBox.js';
 import NavBar from '../Components/NavBar.js'
 
 const HomePage = () => {
