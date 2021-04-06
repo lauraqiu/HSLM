@@ -14,31 +14,13 @@ topDiv: {
 },
 welcome: {
     fontSize: '3em',
-    paddingTop: 50
+    paddingTop: 50,
+    height: 0
 },
-petContainer: {
-    display: 'flex',
-    justifyContent: 'center'
-},
-petImage: {
-    borderRadius: 23,
-    width: 407,
-    height: 394,
-},
-petTitle: {
-    fontSize: 24,
-    fontWeight: 'bold'
-},
-petText: {
-    fontSize: 18,
-    fontWeight: 'medium'
-},
-petInfo: {
-    display: 'flex',
-    flexDirection: 'column',
-    width: 450,
-    paddingLeft: 100
-},
+// petInfo: {
+//     position: 'absolute',
+//     bottom: 300,
+// },
 bottomDiv: {
     backgroundColor: '#198ECB',
     width: '100%',

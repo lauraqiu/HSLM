@@ -5,7 +5,7 @@ import { useHomeStyles } from '../styles/RedInfoBoxClasses.js';
 function HomeComponents(){
     const classes = useHomeStyles();
     return(
-        <div className={classes.wrapper}>    
+        <Grid className={classes.wrapper}>    
                 <Grid container className={classes.frontRectangle}>
                     <div container className={classes.textContainer}>
                         <h1 item className={classes.textTitle}>News & Updates</h1>
@@ -14,7 +14,7 @@ function HomeComponents(){
                     </div>
                 </Grid>
                 <div container className={classes.backRectangle}></div> 
-        </div>
+        </Grid>
     )
 }
 
