@@ -1,4 +1,5 @@
 import React from 'react';
+import HomeComponents from '../Components/HomeComponents.js';
 import NavBar from '../Components/NavBar.js'
 
 const HomePage = () => {
@@ -14,6 +15,7 @@ const HomePage = () => {
     return (
         <div> 
             <NavBar options={NavOptions}/>
+            <HomeComponents/>
         </div>
     )
 }
