@@ -4,7 +4,7 @@ const useHomeStyles = makeStyles((theme) => ({
     wrapper:{
         fontFamily: 'poppins',
         color: 'white',
-        height: 310
+        height: 310,
     },
     frontRectangle:{
         width: 970,

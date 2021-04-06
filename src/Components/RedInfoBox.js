@@ -13,7 +13,7 @@ function HomeComponents(){
                         <h2 item className={classes.text}>Enter our monthly giveaway!</h2>
                     </div>
                 </Grid>
-                <div container className={classes.backRectangle}></div> 
+                <Grid className={classes.backRectangle}></Grid> 
         </Grid>
     )
 }

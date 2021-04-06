@@ -12,15 +12,16 @@ topDiv: {
     display: 'flex',
     justifyContent: 'center',
 },
+welcomeContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    width: '100%'
+},
 welcome: {
     fontSize: '3em',
     paddingTop: 50,
-    height: 0
+    height: 0,
 },
-// petInfo: {
-//     position: 'absolute',
-//     bottom: 300,
-// },
 bottomDiv: {
     backgroundColor: '#198ECB',
     width: '100%',

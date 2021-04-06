@@ -22,7 +22,9 @@ const HomePage = () => {
         <div className={classes.root}> 
             <NavBar options={NavOptions}/>
             <Grid container className={classes.topDiv}>
-                <h1 item className={classes.welcome}>Welcome to HSLM's Pet Club!</h1>
+                <div item container className={classes.welcomeContainer}>
+                    <h1 item className={classes.welcome}>Welcome to HSLM's Pet Club!</h1>
+                </div>
                 {/* Pet of the Day */}
                 <RedInfoBox item/>
                 <PetOfTheDay item/>
