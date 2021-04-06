@@ -4,6 +4,7 @@ import {useStyles} from '../styles/HomeClasses.js';
 import Grid from '@material-ui/core/Grid';
 import mascot from '../images/Mascot.png';
 import petOfTheDay from '../images/PetoftheDay.png';
+import RedInfoBox from '../Components/RedInfoBox.js';
 
 const HomePage = () => {
 
