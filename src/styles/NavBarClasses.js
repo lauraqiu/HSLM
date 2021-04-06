@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-evenly'
   },
   logoContainer:{
-    width: '10%',
+    width: '15%',
     display: 'flex',
     alignItems: 'center'
   },
@@ -30,9 +30,9 @@ const useStyles = makeStyles((theme) => ({
   },
   iconsContainer: {
     display: 'flex',
-    width: '10%',
+    width: '13%',
     alignItems: 'center',
-    justifyContent: 'space-around'
+    justifyContent: 'center'
   },
   instagramIcon: {
     height: 56,

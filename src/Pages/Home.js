@@ -3,7 +3,7 @@ import NavBar from '../Components/NavBar.js';
 import {useStyles} from '../styles/HomeClasses.js';
 import Grid from '@material-ui/core/Grid';
 import mascot from '../images/Mascot.png';
-import petOfTheDay from '../images/PetoftheDay.png';
+import PetOfTheDay from '../Components/PetOfTheDay.js';
 import RedInfoBox from '../Components/RedInfoBox.js';
 
 const HomePage = () => {
@@ -24,18 +24,8 @@ const HomePage = () => {
             <Grid container className={classes.topDiv}>
                 <h1 item className={classes.welcome}>Welcome to HSLM's Pet Club!</h1>
                 {/* Pet of the Day */}
-                {/* Add Red Bubble */}
-                <Grid container className={classes.petContainer}>
-                    <img item className={classes.petImage} src={petOfTheDay} alt='Pet of the Day'/>
-                    <Grid container item className={classes.petInfo}>
-                        <h2 item className={classes.petTitle}>Pet of the Day</h2>
-                        <p item className={classes.petText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                            pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                    </Grid>
-                </Grid>
+                <RedInfoBox item/>
+                <PetOfTheDay item/>
             </Grid>
             {/* Fun Fact of the Day */}
             <div className={classes.bottomDiv}>
