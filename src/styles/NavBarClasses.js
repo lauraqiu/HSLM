@@ -10,10 +10,6 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'nowrap',
     justifyContent: 'space-evenly'
   },
-  logo: {
-    height: 92,
-    width: 84
-  },
   logoContainer:{
     width: '10%',
     display: 'flex',

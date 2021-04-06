@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import {useStyles} from '../styles/NavBarClasses.js';
 import instagramIcon from '../images/icons8-instagram 1.png';
 import twitterIcon from '../images/icons8-twitter 1 (1).png';
-import logo from '../images/HS_Logo_Vertical.png';
+import logo from '../images/hslm 1.png'
 
 const NavBar = (props) => {
     const classes = useStyles();
@@ -12,7 +12,7 @@ const NavBar = (props) => {
     return (
         <div container className={classes.root}> 
             <Grid justify='center' container className={classes.logoContainer}>
-                <img className={classes.logo} src={logo} alt='logo'/>
+                <img src={logo} alt='logo'/>
             </Grid>
             <Grid className={classes.buttonContainer} container item>
                 {props.options.map((data) => {
