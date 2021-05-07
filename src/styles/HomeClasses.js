@@ -42,7 +42,7 @@ mascotDiv: {
 mascot: {
     width: 255,
     height: 380,
-    paddingRight: 0
+    paddingRight: 70
 },
 }));
 export { useStyles };
