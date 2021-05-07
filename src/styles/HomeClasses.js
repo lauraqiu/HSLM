@@ -29,7 +29,6 @@ bottomDiv: {
 },
 funFact: {
     fontSize: 48,
-    width: '100%',
     paddingTop: '8%',
     paddingLeft: '20%',
     margin: 0,
@@ -42,8 +41,8 @@ mascotDiv: {
 },
 mascot: {
     width: 255,
-    height: 340,
-    paddingRight: 50
+    height: 380,
+    paddingRight: 0
 },
 }));
 export { useStyles };
