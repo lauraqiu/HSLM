@@ -2,9 +2,10 @@ import React from 'react';
 import NavBar from '../Components/NavBar.js';
 import {useStyles} from '../styles/HomeClasses.js';
 import Grid from '@material-ui/core/Grid';
-import mascot from '../images/Mascot.png';
+import mascot from '../images/mascot.png';
 import PetOfTheDay from '../Components/PetOfTheDay.js';
 import RedInfoBox from '../Components/RedInfoBox.js';
+import SpeechBubble from '../Components/SpeechBubble.js'
 
 const HomePage = () => {
 
@@ -30,11 +31,13 @@ const HomePage = () => {
                 <PetOfTheDay item/>
             </Grid>
             {/* Fun Fact of the Day */}
-            <div className={classes.bottomDiv}>
+            <Grid className={classes.bottomDiv}>
                 <h1 className={classes.funFact}>Fun Fact of the Day!</h1>
-                <img className={classes.mascot} src={mascot} alt='mascot'/>
-                {/* Add Blue bubble */}
-            </div>
+                <Grid container item className={classes.mascotDiv}>
+                    <img item className={classes.mascot} src={mascot} alt='mascot'/>
+                    <SpeechBubble item/>
+                </Grid>
+            </Grid>
         </div>
     )
 }

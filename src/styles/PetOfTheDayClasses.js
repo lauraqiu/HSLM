@@ -7,7 +7,7 @@ root: {
 },
 petContainer:{
     display: 'flex',
-    justifyContent: 'center'
+    justifyContent: 'center',
 },
 petImage: {
     borderRadius: 23,
