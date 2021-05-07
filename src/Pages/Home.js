@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../Components/NavBar.js';
 import {useStyles} from '../styles/HomeClasses.js';
 import Grid from '@material-ui/core/Grid';
-import Mascot from '../images/mascot.png';
+import Mascot from '../images/Mascot.png';
 import PetOfTheDay from '../Components/PetOfTheDay.js';
 import RedInfoBox from '../Components/RedInfoBox.js';
 import SpeechBubble from '../Components/SpeechBubble.js'
