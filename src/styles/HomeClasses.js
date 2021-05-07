@@ -25,19 +25,25 @@ welcome: {
 bottomDiv: {
     backgroundColor: '#198ECB',
     width: '100%',
-    height: 700
+    height: 700,
 },
 funFact: {
     fontSize: 48,
-    left: 333,
-    top: 1331,
-    position: 'absolute',
+    width: '100%',
+    paddingTop: '8%',
+    paddingLeft: '20%',
+    margin: 0,
+},
+mascotDiv: {
+    display: 'flex',
+    alignContent: 'center',
+    justifyContent: 'center',
+    paddingTop: 50
 },
 mascot: {
-    position: 'absolute',
-    left: 150,
-    top: 1400,
-}
-
+    width: 255,
+    height: 340,
+    paddingRight: 50
+},
 }));
 export { useStyles };
