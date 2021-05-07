@@ -1,0 +1,63 @@
+body {
+  padding:0;
+  margin:0;
+}
+.frontBubble {
+  position: relative;
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 30px;
+  width: 616px;
+  background:#51BEF7;
+  border-radius: 44px;
+  padding: 24px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+  color: white;
+  z-index: 500;
+}
+
+.frontBubbleBottomLeft:before {
+  content: "";
+  width: 0px;
+  position: absolute;
+  border-left: 50px solid #51BEF7;
+  border-right: 50px solid transparent;
+  border-top: 20px solid #51BEF7;
+  border-bottom: 50px solid transparent;
+  left: 5px;
+  bottom: -50px;
+  z-index: 500;
+  transform: rotate(20deg)
+}
+
+.backBubble {
+  position: relative;
+  top: -170px;
+  right: -20px;
+  font-family: Poppins;
+  font-size: 20px;
+  line-height: 30px;
+  width: 616px;
+  background:#1766B2;
+  border-radius: 44px;
+  padding: 24px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #1766B2;
+}
+
+.backBubbleBottomLeft:before {
+  content: "";
+  width: 0px;
+  position: absolute;
+  border-left: 50px solid #1766B2;
+  border-right: 5-px solid transparent;
+  border-top: 20px solid #1766B2;
+  border-bottom: 50px solid transparent;
+  left: 10px;
+  bottom: -30px;
+  transform: rotate(20deg)
+}
