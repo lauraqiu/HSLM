@@ -8,6 +8,14 @@ import logo from '../images/hslm 1.png'
 
 const NavBar = (props) => {
     const classes = useStyles();
+    
+    const NavOptions = [
+        {label: 'Home'},
+        {label: 'Quizzes'},
+        {label: 'Choose Your Own Adventure'},
+        {label: 'Videos'},
+        {label: 'Contact Us!'}
+        ]
 
     return (
         <div container className={classes.root}> 
@@ -15,7 +23,7 @@ const NavBar = (props) => {
                 <img src={logo} alt='logo'/>
             </Grid>
             <Grid className={classes.buttonContainer} container item>
-                {props.options.map((data) => {
+                {NavOptions.map((data) => {
                     return (
                         <Button item className={classes.button}> 
                         {data.label}
