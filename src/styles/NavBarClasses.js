@@ -21,12 +21,17 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 20,
     fontHeight: 24,
     fontWeight: 'bold',
-    fontFamily: 'Poppins'
+    fontFamily: 'Poppins',
   },
   buttonContainer: {
     display: 'flex',
     width: '70%',
     justifyContent: 'space-evenly',
+  },
+  link: {
+    textDecoration: 'none',
+    display: 'flex',
+    justifyContent: 'center'
   },
   iconsContainer: {
     display: 'flex',
