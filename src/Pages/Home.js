@@ -11,17 +11,9 @@ const HomePage = () => {
 
     const classes = useStyles();
 
-    const NavOptions = [
-        {label: 'Home'},
-        {label: 'Quizzes'},
-        {label: 'Choose Your Own Adventure'},
-        {label: 'Videos'},
-        {label: 'Contact Us!'}
-        ]
-
     return (
         <div className={classes.root}> 
-            <NavBar options={NavOptions}/>
+            <NavBar/>
             <Grid container className={classes.topDiv}>
                 <div item container className={classes.welcomeContainer}>
                     <h1 item className={classes.welcome}>Welcome to HSLM's Pet Club!</h1>
