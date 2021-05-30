@@ -20,7 +20,6 @@ const useStyles = makeStyles((theme) => ({
         flexWrap: 'wrap',
         paddingBottom: 20,
         paddingTop: 80
-
     },
     picture: {
         borderRadius: 30,

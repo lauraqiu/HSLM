@@ -1,11 +1,11 @@
 import React from 'react';
-import NavBar from '../Components/NavBar.js';
+import NavBar from '../components/NavBar.js';
 import {useStyles} from '../styles/HomeClasses.js';
 import Grid from '@material-ui/core/Grid';
 import Mascot from '../images/Mascot.png';
-import PetOfTheDay from '../Components/PetOfTheDay.js';
-import RedInfoBox from '../Components/RedInfoBox.js';
-import SpeechBubble from '../Components/SpeechBubble.js'
+import PetOfTheDay from '../components/PetOfTheDay.js';
+import RedInfoBox from '../components/RedInfoBox.js';
+import SpeechBubble from '../components/SpeechBubble.js'
 
 const HomePage = () => {
 
