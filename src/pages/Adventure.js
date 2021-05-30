@@ -3,10 +3,11 @@ import NavBar from '../components/NavBar.js';
 import {useStyles} from '../styles/AdventureClass.js';
 import dogBackground from '../images/dogBackground.png';
 import Grid from '@material-ui/core/Grid';
-import AdventurePicture from '../components/AdventurePicture.js.js'
+import AdventurePicture from '../components/AdventurePicture.js'
 
 
 const AdventurePage = () => {
+    
     const classes = useStyles();
         
     return (
