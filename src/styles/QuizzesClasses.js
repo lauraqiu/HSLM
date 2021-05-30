@@ -28,5 +28,10 @@ title: {
     height: 0,
     width: '100%'
 },
+link: {
+    textDecoration: 'none',
+    display: 'flex',
+    justifyContent: 'center'
+  },
 }));
 export { useStyles };
