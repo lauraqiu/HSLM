@@ -6,6 +6,7 @@ import Quiz3 from './pages/Quiz3.js';
 import Quiz4 from './pages/Quiz4.js';
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import "@fontsource/poppins";
+import AdventurePage from './Pages/Adventure.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/quiz2' component={Quiz2}/>
         <Route path='/quiz3' component={Quiz3}/>
         <Route path='/quiz4' component={Quiz4}/>
+        <Route path='/adventure' component={AdventurePage}/>
       </Switch>
     </BrowserRouter>
   );
