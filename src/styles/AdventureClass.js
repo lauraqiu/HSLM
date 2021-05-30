@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     },
     topDiv: {
         backgroundColor: '#FFC909',
-        width: '100%',
+        wdith: '100%',
         height: '100%',
         display: 'flex',
         justifyContent: 'center',
@@ -20,7 +20,6 @@ const useStyles = makeStyles((theme) => ({
         flexWrap: 'wrap',
         paddingBottom: 20,
         paddingTop: 80
-
     },
     picture: {
         borderRadius: 30,
