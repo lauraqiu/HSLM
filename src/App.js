@@ -4,9 +4,9 @@ import Quiz1 from './pages/Quiz1.js';
 import Quiz2 from './pages/Quiz2.js';
 import Quiz3 from './pages/Quiz3.js';
 import Quiz4 from './pages/Quiz4.js';
+import AdventurePage from './pages/Adventure.js';
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import "@fontsource/poppins";
-import AdventurePage from './Pages/Adventure.js';
 
 function App() {
   return (
