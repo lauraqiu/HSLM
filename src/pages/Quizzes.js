@@ -3,7 +3,9 @@ import NavBar from "../components/NavBar.js";
 import { useStyles } from "../styles/QuizzesClasses.js";
 import Grid from "@material-ui/core/Grid";
 import QuizPicture from "../components/QuizPicture.js";
-import dogs from "../images/quiz-dogs.png";
+import Q3Thumbnail from "../images/QuizThumbnails/Q3Thumbnail.jpg";
+import Q4Thumbnail from "../images/QuizThumbnails/Q4Thumbnail.jpg";
+import dogs from "../images/QuizThumbnails/quiz-dogs.png";
 import { Link } from "react-router-dom";
 
 const Quizzes = () => {
@@ -24,10 +26,10 @@ const Quizzes = () => {
             <QuizPicture image={dogs} text="Baking a Cookie" />
           </Link>
           <Link to="/quiz3" className={classes.link}>
-            <QuizPicture image={dogs} text="What Pet is Right For you?" />
+            <QuizPicture image={Q3Thumbnail} text="What Pet is Right For you?" />
           </Link>
           <Link to="/quiz4" className={classes.link}>
-            <QuizPicture image={dogs} text="What Type of Dog Should You Get?" />
+            <QuizPicture image={Q4Thumbnail} text="What Type of Dog Should You Get?" />
           </Link>
         </Grid>
       </Grid>
