@@ -4,6 +4,15 @@ import { useStyles } from "../styles/PlayQuizClasses.js";
 import Grid from "@material-ui/core/Grid";
 import styled from "styled-components";
 import ReactBuzzFeedQuiz from "react-buzzfeed-quiz";
+import Quiz3Q1 from "../images/Quiz3/Q1.jpg";
+import Quiz3Q2 from "../images/Quiz3/Q2.webp";
+import Quiz3Q3 from "../images/Quiz3/Q3.webp";
+import Quiz3Q4 from "../images/Quiz3/Q4.webp";
+import Quiz3Q5 from "../images/Quiz3/Q5.jpg";
+import Quiz3A1 from "../images/Quiz3/AnswerA.jpg";
+import Quiz3A2 from "../images/Quiz3/AnswerB.jpg";
+import Quiz3A3 from "../images/Quiz3/AnswerC.jpg";
+import Quiz3A4 from "../images/Quiz3/AnswerD.jpg";
 const Quiz = styled(ReactBuzzFeedQuiz)([]);
 
 const Quizzes = () => {
@@ -14,8 +23,8 @@ const Quizzes = () => {
       <NavBar />
       <Grid container className={classes.page}>
         <Quiz
-          title={"What kind of pet is right for you?"}
-          description={"description here"}
+          title={"What type of pet animal should you get?"}
+          description={"Find out what type of pet best suits your lifestyle and personality!"}
           byline={false}
           autoScroll={true}
           facebookShareButton={true}
@@ -29,6 +38,7 @@ const Quizzes = () => {
               question: "How would you describe yourself?",
               questionRelativeToImage: "overlap",
               answerArrangement: "row",
+              backgroundImageSrc: Quiz3Q1,
               answers: [
                 {
                   answer: "I like to run around and stay active",
@@ -52,9 +62,10 @@ const Quizzes = () => {
               question: "How much time do you have to take care of your pet?",
               questionRelativeToImage: "overlap",
               answerArrangement: "row",
+              backgroundImageSrc: Quiz3Q2,
               answers: [
                 {
-                  answer: "I will play with it everyday!",
+                  answer: "I will play with it everyday",
                   resultID: 0,
                 },
                 {
@@ -62,11 +73,11 @@ const Quizzes = () => {
                   resultID: 1,
                 },
                 {
-                  answer: "1 hour a day",
+                  answer: "I will play with it 1 hour a day",
                   resultID: 2,
                 },
                 {
-                  answer: "I don’t have time!",
+                  answer: "I don’t have time",
                   resultID: 3,
                 },
               ],
@@ -75,6 +86,7 @@ const Quizzes = () => {
               question: "How much space do you have for your pet?",
               questionRelativeToImage: "overlap",
               answerArrangement: "row",
+              backgroundImageSrc: Quiz3Q3,
               answers: [
                 {
                   answer: "An entire house and a backyard",
@@ -98,9 +110,10 @@ const Quizzes = () => {
               question: "How would you react if your pet broke something you really like?",
               questionRelativeToImage: "overlap",
               answerArrangement: "row",
+              backgroundImageSrc: Quiz3Q4,
               answers: [
                 {
-                  answer: "I would both me a little",
+                  answer: "It would both me a little",
                   resultID: 0,
                 },
                 {
@@ -108,7 +121,7 @@ const Quizzes = () => {
                   resultID: 1,
                 },
                 {
-                  answer: "I would be super angry and want to give away my pet!",
+                  answer: "I would be super angry and want to give away my pet",
                   resultID: 2,
                 },
                 {
@@ -121,6 +134,7 @@ const Quizzes = () => {
               question: "How responsible are you?",
               questionRelativeToImage: "overlap",
               answerArrangement: "row",
+              backgroundImageSrc: Quiz3Q5,
               answers: [
                 {
                   answer: "Extremely responsible and organized",
@@ -143,29 +157,32 @@ const Quizzes = () => {
           ]}
           results={[
             {
-              title: "dog",
+              title: "Dog",
               description:
-                "insert description",
-              imageAttribution: "Your photo attribution text goes here",
-              resultID: 0,
+                "Dogs are very active and like to run around. However, they require a lot of attention.",
+                resultImageSrc: Quiz3A1,
+                resultID: 0,
             },
             {
-              title: "cat",
+              title: "Cat",
               description:
-                "insert description",
-              resultID: 1,
+                "Cats are not very active but still like to have fun once in a while. They are perfect for you if you don’t have a lot of time but you want a pet to interact with.",
+                resultImageSrc: Quiz3A2,
+                resultID: 1,
             },
             {
-              title: "bird, guinea pig, hamster",
+              title: "Bird, Guinea Pig, Hamster",
               description:
-                "insert description",
-              resultID: 2,
+                "These pets are perfect for you if you don’t have a lot of space! They are also great if you don’t have a lot of time because they don’t require too much attention.",
+                resultImageSrc: Quiz3A3,
+                resultID: 2,
             },
             {
-              title: "snake, reptile",
+              title: "Snake, Reptile",
               description:
-                "insert description",
-              resultID: 3,
+                "These pets are more uncommon and are definitely unique. They are perfect for you if you don’t have a lot of time because they don’t require much attention.",
+                resultImageSrc: Quiz3A4,
+                resultID: 3,
             },
           ]}
         />
