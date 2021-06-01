@@ -24,6 +24,15 @@ import Quiz4Q5O1 from "../images/Quiz4/5a.jpg";
 import Quiz4Q5O2 from "../images/Quiz4/5b.jpg";
 import Quiz4Q5O3 from "../images/Quiz4/5c.jpg";
 import Quiz4Q5O4 from "../images/Quiz4/5d.jpg";
+import Quiz4Q1 from "../images/Quiz4/Q1.webp";
+import Quiz4Q2 from "../images/Quiz4/Q2.webp";
+import Quiz4Q3 from "../images/Quiz4/Q3.webp";
+import Quiz4Q4 from "../images/Quiz4/Q4.webp";
+import Quiz4Q5 from "../images/Quiz4/Q5.webp";
+import Quiz4A1 from "../images/Quiz4/Answer1.webp";
+import Quiz4A2 from "../images/Quiz4/Answer2.webp";
+import Quiz4A3 from "../images/Quiz4/Answer3.webp";
+import Quiz4A4 from "../images/Quiz4/Answer4.webp";
 const Quiz = styled(ReactBuzzFeedQuiz)([]);
 
 const Quizzes = () => {
@@ -34,8 +43,8 @@ const Quizzes = () => {
       <NavBar />
       <Grid container className={classes.page}>
         <Quiz
-          title={"Pick a 5-course meal to determine what type of dog you should get"} // quiz title name needed
-          description={"description needed"}
+          title={"Pick a 5-course meal to determine what type of dog you should get!"} // quiz title name needed
+          description={"Pick your favourite foods and we’ll tell you what type of dog to get!"}
           byline={false}
           autoScroll={true}
           facebookShareButton={true}
@@ -49,6 +58,7 @@ const Quizzes = () => {
               question: "Small snack",
               questionRelativeToImage: "overlap",
               answerArrangement: "tile",
+              backgroundImageSrc: Quiz4Q1,
               answers: [
                 {
                   backgroundImageSrc: Quiz4Q1O1,
@@ -72,6 +82,7 @@ const Quizzes = () => {
               question: "Appetizer",
               questionRelativeToImage: "overlap",
               answerArrangement: "tile",
+              backgroundImageSrc: Quiz4Q2,
               answers: [
                 {
                   backgroundImageSrc: Quiz4Q2O1,
@@ -95,6 +106,7 @@ const Quizzes = () => {
               question: "Soup",
               questionRelativeToImage: "overlap",
               answerArrangement: "tile",
+              backgroundImageSrc: Quiz4Q3,
               answers: [
                 {
                   backgroundImageSrc: Quiz4Q3O1,
@@ -118,6 +130,7 @@ const Quizzes = () => {
               question: "Main",
               questionRelativeToImage: "overlap",
               answerArrangement: "tile",
+              backgroundImageSrc: Quiz4Q4,
               answers: [
                 {
                   backgroundImageSrc: Quiz4Q4O1,
@@ -141,6 +154,7 @@ const Quizzes = () => {
               question: "Dessert",
               questionRelativeToImage: "overlap",
               answerArrangement: "tile",
+              backgroundImageSrc: Quiz4Q5,
               answers: [
                 {
                   backgroundImageSrc: Quiz4Q5O1,
@@ -166,26 +180,29 @@ const Quizzes = () => {
               title: "Shiba Inu",
               description:
                 "You like to go with the flow. Cats love to keep to a routine.",
-              imageAttribution: "Your photo attribution text goes here",
+              resultImageSrc: Quiz4A1,
               resultID: 0,
             },
             {
               title: "Golden retriever",
               description:
                 "You’re very adventurous. What better way to explore than with a furry companion like a dog?",
-              resultID: 1,
+                resultImageSrc: Quiz4A2,
+                resultID: 1,
             },
             {
               title: "German shepherd",
               description:
                 "You’re free spirited. What better way than with a cute rabbit by your side!",
-              resultID: 2,
+                resultImageSrc: Quiz4A3,
+                resultID: 2,
             },
             {
               title: "Husky",
               description:
                 "You’re very down to earth! You like to keep things simple and what better way to do so then with a nice furry animal like a mouse of a guinea pig?",
-              resultID: 3,
+                resultImageSrc: Quiz4A4,
+                resultID: 3,
             },
           ]}
         />
