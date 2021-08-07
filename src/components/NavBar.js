@@ -16,7 +16,7 @@ const NavBar = (props) => {
         {label: 'Quizzes', route:'/quiz'},
         {label: 'Adventure', route:'/adventure'},
         {label: 'Videos', route:'/home'},
-        {label: 'Contact Us!', route:'/home'}
+        {label: 'Contact Us!', route:'/contactform'}
         ]
 
     return (
