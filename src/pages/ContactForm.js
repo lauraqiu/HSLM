@@ -44,6 +44,9 @@ const ContactForm = () => {
         setMessage("");
 
     };
+ 
+
+const ContactForm = () => {
 
     const classes = useStyles();
 
@@ -86,6 +89,15 @@ const ContactForm = () => {
                                     value={lastName}
                                     onChange={(e) => setLastName(e.target.value)}
                                     required/>
+                        <form id={classes.contactForm}>
+                            <Grid className={classes.grid}>
+                                <li className={classes.contactFormP}>
+                                    <label className={classes.contactFormLabel}>First Name</label>
+                                    <input type="text" className={classes.contactFormInput1} id="firstName" required/>
+                                </li>
+                                <li className={classes.contactFormP}>
+                                    <label className={classes.contactFormLabel}>Last Name</label>
+                                    <input type="text" className={classes.contactFormInput1} id="lastName" required/>
                                 </li>
                             </Grid>
                             <Grid className={classes.grid}>
@@ -107,6 +119,11 @@ const ContactForm = () => {
                                     id="phone"
                                     value={phoneNumber}
                                     onChange={(e) => setPhoneNumber(e.target.value)}/>
+                                    <input type="text" className={classes.contactFormInput1} id="email" required/>
+                                </li>
+                                <li className={classes.contactFormP}>
+                                    <label className={classes.contactFormLabel}>Phone Number</label>
+                                    <input type="text" className={classes.contactFormInput1} id="phone"/>
                                 </li>
                             </Grid>
                             <Grid>
@@ -128,6 +145,11 @@ const ContactForm = () => {
                                 className={classes.contactformButton}
                                 id="submit"
                                 style= {{background: loader ? "#ccc" : "#FF5757" }}>Send Message</Button>
+                                    <textarea className={classes.contactFormInput} rows="5" id="message" required></textarea>
+                                </li>
+                            </Grid>
+                            <p className={classes.contactFormFull}>
+                                <Button item variant='contained' className={classes.contactformButton} id="submit">Send Message</Button>
                             </p>
                         </form>
                     </div>
