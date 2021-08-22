@@ -16,18 +16,14 @@ import Quiz2Q3O1 from "../images/Quiz2/Q3textureA.png";
 import Quiz2Q3O2 from "../images/Quiz2/Q3textureB.png";
 import Quiz2Q3O3 from "../images/Quiz2/Q3textureC.png";
 import Quiz2Q3O4 from "../images/Quiz2/Q3textureD.png";
-import Quiz2Q4O1 from "../images/Quiz2/Q4A.jpg";
-import Quiz2Q4O2 from "../images/Quiz2/Q4B.png";
-import Quiz2Q4O3 from "../images/Quiz2/Q4C.jpg"; 
-import Quiz2Q4O4 from "../images/Quiz2/Q4D.jpg";
-import Quiz2Q5O1 from "../images/Quiz2/Q5A.png";
-import Quiz2Q5O2 from "../images/Quiz2/Q5B.png";
-import Quiz2Q5O3 from "../images/Quiz2/Q5C.png";
-import Quiz2Q5O4 from "../images/Quiz2/Q5D.jpg"; 
-import Quiz2A1 from "../images/Quiz2/Answer1.jpg";
-import Quiz2A2 from "../images/Quiz2/Answer2.jpg";
-import Quiz2A3 from "../images/Quiz2/Answer3.jpg";
-import Quiz2A4 from "../images/Quiz2/Answer4.jpg";
+import Quiz2Q4O1 from "../images/Quiz2/Q4tempA.png";
+import Quiz2Q4O2 from "../images/Quiz2/Q4tempB.png";
+import Quiz2Q4O3 from "../images/Quiz1/15.jpg"; // add option
+import Quiz2Q4O4 from "../images/Quiz1/16.jpg"; // add option
+import Quiz2Q5O1 from "../images/Quiz2/Q5whoA.png";
+import Quiz2Q5O2 from "../images/Quiz2/Q5whoB.png";
+import Quiz2Q5O3 from "../images/Quiz2/Q5whoC.png";
+import Quiz2Q5O4 from "../images/Quiz1/20.jpg"; // add option
 const Quiz = styled(ReactBuzzFeedQuiz)([]);
 
 const Quizzes = () => {
@@ -38,7 +34,7 @@ const Quizzes = () => {
       <NavBar />
       <Grid container className={classes.page}>
         <Quiz
-          title={"Choose a name for a pet!"} 
+          title={"Your title goes here."} // quiz title name needed
           description={"Build a cookie and we’ll tell you a name!"}
           byline={false}
           autoScroll={true}
@@ -119,7 +115,7 @@ const Quizzes = () => {
               ],
             },
             {
-              question: "What tool will you be using?",
+              question: "Do you like your cookies cool or warm?",
               questionRelativeToImage: "overlap",
               answerArrangement: "tile",
               answers: [
@@ -167,31 +163,28 @@ const Quizzes = () => {
           ]}
           results={[
             {
-              title: "Charlie or Coco",
-              resultImageSrc: Quiz2A1,
+              title: "Your first result title goes here",
               description:
-                "A great name for your fluffy pet should be Charlie or Coco!",
+                "You like to go with the flow. Cats love to keep to a routine.",
+              imageAttribution: "Your photo attribution text goes here",
               resultID: 0,
             },
             {
-              title: "Buddy or Bailey",
-              resultImageSrc: Quiz2A2,
+              title: "Your second result title goes here",
               description:
-                "A great name for your fluffy pet should be Buddy or Bailey!",
+                "You’re very adventurous. What better way to explore than with a furry companion like a dog?",
               resultID: 1,
             },
             {
-              title: "Toby or Bella",
-              resultImageSrc: Quiz2A3,
+              title: "Your third result title goes here",
               description:
-                "A great name for your fluffy pet should be Toby or Bella!",
+                "You’re free spirited. What better way than with a cute rabbit by your side!",
               resultID: 2,
             },
             {
-              title: "Chip or Alfie",
-              resultImageSrc: Quiz2A4,
+              title: "Your third result title goes here",
               description:
-                "A great name for your fluffy pet should be Chip or Alfie!",
+                "You’re very down to earth! You like to keep things simple and what better way to do so then with a nice furry animal like a mouse of a guinea pig?",
               resultID: 3,
             },
           ]}
