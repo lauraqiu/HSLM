@@ -10,6 +10,8 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>;
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

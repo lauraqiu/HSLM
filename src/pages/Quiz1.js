@@ -24,10 +24,6 @@ import Quiz1Q5O1 from "../images/Quiz1/17.png";
 import Quiz1Q5O2 from "../images/Quiz1/18.png";
 import Quiz1Q5O3 from "../images/Quiz1/19.png";
 import Quiz1Q5O4 from "../images/Quiz1/20.jpg";
-import Quiz1A1 from "../images/Quiz1/Answer1.jpg";
-import Quiz1A2 from "../images/Quiz1/Answer2.jpg";
-import Quiz1A3 from "../images/Quiz1/Answer3.jpg";
-import Quiz1A4 from "../images/Quiz1/Answer4.jpg";
 const Quiz = styled(ReactBuzzFeedQuiz)([]);
 
 const Quizzes = () => {
@@ -38,9 +34,9 @@ const Quizzes = () => {
       <NavBar />
       <Grid container className={classes.page}>
         <Quiz
-          title={"What type of pet should you get?"} 
+          title={"Your title goes here."} // quiz title name needed
           description={
-            "Choose a picture in every colour and we’ll tell you a type!"
+            "Choose a picture in every colour and we’ll tell you a name!"
           }
           byline={false}
           autoScroll={true}
@@ -76,8 +72,6 @@ const Quizzes = () => {
             },
             {
               question: "White",
-              backgroundColor: "White",
-              fontColor: "Black",
               questionRelativeToImage: "overlap",
               answerArrangement: "tile",
               answers: [
@@ -101,7 +95,6 @@ const Quizzes = () => {
             },
             {
               question: "Green",
-              backgroundColor: "#2BD535",
               questionRelativeToImage: "overlap",
               answerArrangement: "tile",
               answers: [
@@ -125,7 +118,6 @@ const Quizzes = () => {
             },
             {
               question: "Pink",
-              backgroundColor: "Pink",
               questionRelativeToImage: "overlap",
               answerArrangement: "tile",
               answers: [
@@ -149,7 +141,6 @@ const Quizzes = () => {
             },
             {
               question: "Blue",
-              backgroundColor: "#3CC8FF",
               questionRelativeToImage: "overlap",
               answerArrangement: "tile",
               answers: [
@@ -174,32 +165,29 @@ const Quizzes = () => {
           ]}
           results={[
             {
-              title: "Cat",
+              title: "Your first result title goes here",
               description:
                 "You like to go with the flow. Cats love to keep to a routine.",
-              resultImageSrc: Quiz1A1,
+              imageAttribution: "Your photo attribution text goes here",
               resultID: 0,
             },
             {
-              title: "Dog",
+              title: "Your second result title goes here",
               description:
                 "You’re very adventurous. What better way to explore than with a furry companion like a dog?",
-                resultImageSrc: Quiz1A2,
-                resultID: 1,
+              resultID: 1,
             },
             {
-              title: "Rabbit",
+              title: "Your third result title goes here",
               description:
                 "You’re free spirited. What better way than with a cute rabbit by your side!",
-                resultImageSrc: Quiz1A3,
-                resultID: 2,
+              resultID: 2,
             },
             {
-              title: "Guinea Pig",
+              title: "Your third result title goes here",
               description:
                 "You’re very down to earth! You like to keep things simple and what better way to do so then with a nice furry animal like a mouse of a guinea pig?",
-                resultImageSrc: Quiz1A4,
-                resultID: 3,
+              resultID: 3,
             },
           ]}
         />
