@@ -179,28 +179,28 @@ const Quizzes = () => {
             {
               title: "Shiba Inu",
               description:
-                "You like to go with the flow. Cats love to keep to a routine.",
+                " ",
               resultImageSrc: Quiz4A1,
               resultID: 0,
             },
             {
               title: "Golden retriever",
               description:
-                "You’re very adventurous. What better way to explore than with a furry companion like a dog?",
+                " ",
                 resultImageSrc: Quiz4A2,
                 resultID: 1,
             },
             {
               title: "German shepherd",
               description:
-                "You’re free spirited. What better way than with a cute rabbit by your side!",
+                " ",
                 resultImageSrc: Quiz4A3,
                 resultID: 2,
             },
             {
               title: "Husky",
               description:
-                "You’re very down to earth! You like to keep things simple and what better way to do so then with a nice furry animal like a mouse of a guinea pig?",
+                " ",
                 resultImageSrc: Quiz4A4,
                 resultID: 3,
             },
