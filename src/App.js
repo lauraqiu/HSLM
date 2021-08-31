@@ -13,7 +13,6 @@ function App() {
   return (
     <BrowserRouter >
       <Switch>
-        <Route path='/home' component={HomePage}/>
         <Route path='/quiz' component={Quizzes}/>
         <Route path='/quiz1' component={Quiz1}/>
         <Route path='/quiz2' component={Quiz2}/>
@@ -21,6 +20,7 @@ function App() {
         <Route path='/quiz4' component={Quiz4}/>
         <Route path='/adventure' component={AdventurePage}/>
         <Route path='/contactform' component={ContactForm}/>
+        <Route path='/' component={HomePage}/>
       </Switch>
     </BrowserRouter>
   );
