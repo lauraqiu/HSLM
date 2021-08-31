@@ -12,10 +12,9 @@ const NavBar = (props) => {
     
     // update route when rest of the pages are completed
     const NavOptions = [
-        {label: 'Home', route:'/home'},
+        {label: 'Home', route:'/'},
         {label: 'Quizzes', route:'/quiz'},
-        {label: 'Adventure', route:'/adventure'},
-        {label: 'Videos', route:'/home'},
+        {label: 'Videos', route:''},
         {label: 'Contact Us!', route:'/contactform'}
         ]
 
