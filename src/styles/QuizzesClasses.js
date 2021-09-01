@@ -14,8 +14,8 @@ topDiv: {
 },
 quizContainer: {
     display: 'flex',
-    justifyContent: 'space-around',
-    width: '80%',
+    justifyContent: 'space-between',
+    width: '70%',
     flexWrap: 'wrap',
     paddingBottom: 20,
     paddingTop: 80
