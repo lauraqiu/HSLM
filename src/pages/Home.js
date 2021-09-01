@@ -24,7 +24,7 @@ const HomePage = () => {
             </Grid>
             {/* Fun Fact of the Day */}
             <Grid className={classes.bottomDiv}>
-                <h1 className={classes.funFact}>Fun Fact of the Day!</h1>
+                <h1 className={classes.funFact}>Fun Fact about HSLM!</h1>
                 <Grid container item className={classes.mascotDiv}>
                     <img item className={classes.mascot} src={Mascot} alt='mascot'/>
                     <SpeechBubble item/>
