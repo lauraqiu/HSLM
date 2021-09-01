@@ -13,7 +13,7 @@ body {
   padding: 24px;
   padding-top: 50px;
   padding-bottom: 50px;
-  text-align: left;
+  text-align: center;
   color: white;
   z-index: 500;
 }
@@ -34,7 +34,7 @@ body {
 
 .backBubble {
   position: relative;
-  top: -170px;
+  top: -110px;
   right: -20px;
   font-family: Poppins;
   font-size: 20px;

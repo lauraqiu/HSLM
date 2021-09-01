@@ -5,12 +5,10 @@ import styles from '../styles/SpeechBubbleStyles.module.css';
 function SpeechBubble(){
     return(
         <div>    
-            <Grid className={styles.frontBubble+ ' ' + styles.frontBubbleBottomLeft} contenteditable>Lorem 
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam</Grid>
-            <Grid className={styles.backBubble+ ' ' + styles.backBubbleBottomLeft} contenteditable>Lorem 
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam</Grid>
+            <Grid className={styles.frontBubble+ ' ' + styles.frontBubbleBottomLeft} contenteditable>Each year,
+            1,040 bags of kitty litter are used!</Grid>
+            <Grid className={styles.backBubble+ ' ' + styles.backBubbleBottomLeft} contenteditable>Each year,
+            1,040 bags of kitty litter are used!</Grid>
         </div>
     )
 }
