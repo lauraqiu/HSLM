@@ -14,7 +14,6 @@ const NavBar = (props) => {
     const NavOptions = [
         {label: 'Home', route:'/'},
         {label: 'Quizzes', route:'/quiz'},
-        {label: 'Videos', route:''},
         {label: 'Contact Us!', route:'/contactform'}
         ]
 
